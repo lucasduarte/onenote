@@ -10,5 +10,7 @@
 
   <body>
     <%= yield %>
+    <a class="btn btn-default col-xs-12" data-toggle="modal" data-target="#modal_tags">Editar Tags</a>
+    <%= render partial: 'shared/modal_tags' %>
   </body>
 </html>
